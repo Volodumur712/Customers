@@ -1,0 +1,253 @@
+body {
+    /* width: 1440px;
+    height: 1198px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    font-family: 'Poppins';
+    font-style: normal;
+    background: #FAFBFF;
+}
+
+.sidebar {
+    width: 25%;
+    background: #FFFFFF;
+}
+
+.head_menu {
+    position: relative;
+    display: flex;
+}
+.head_menu img {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    left: 28px;
+    top: 45%;
+}
+.head_menu h2 {
+    position: relative;
+    width: 150px;
+    height: 39px;
+    left: 47px;
+    top: 22px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.head_menu p {
+    position: relative;
+    width: 18px;
+    height: 15px;
+    left: 40px;
+    top: 25px;
+    padding-top: 27px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #838383;
+}
+
+.list_menu {
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    width: 80%;
+    height: 46px;
+    left: 28px;
+}
+
+.list_img {
+    position: relative;
+    margin: 4%;
+}
+.list_menu p {
+    position: relative;
+    left: 37px;
+    width: 39%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #9197B3;
+}
+.customers {
+    background: #5932EA;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    width: 80%;
+    height: 46px;
+    left: 28px;
+}
+.customers img {
+    margin: 5%;
+}
+.customers p {
+    position: relative;
+    left: 37px;
+    width: 36%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+#vector {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 30%;
+    margin: 4%;
+}
+.footer_menu {
+    position: relative;
+    display: flex;
+    width: 155px;
+    height: 42px;
+    left: 28px;
+    top: 15%;
+}
+.footer_img {
+    margin-right: 15px;
+}
+.f_m_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+.f_m_text h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0;
+}
+.f_m_text p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin: 0;
+}
+
+.all {
+    width: 75%;
+    
+}
+
+.hello {
+    position: relative;
+    width: 20%;
+    height: 36px;
+    left: 15%;
+    top: 41px;
+}
+
+.all_custom {
+    position: relative;
+    width: 75%;
+    height: 90%;
+    left: 9%;
+    top: 8%;
+    background: #FFFFFF;
+    padding: 1% 3%;
+}
+
+.header {
+    display: flex;
+}
+.head_title h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.head_title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #16C098;
+}
+
+.search {
+    display: flex;
+    width: 216px;
+    height: 38px;
+    left: 50%;
+    margin-top: 2%;
+    box-sizing: border-box;
+    position: relative;
+    background: #F9FBFF;
+    border-radius: 10px;
+}
+.search img {
+    padding-left: 5%;
+}
+
+.search p {
+    padding-left: 10%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #B5B7C0;
+}
+
+.table table {
+    position: relative;
+    width: 99%;
+}
+
+.table th {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #B5B7C0;
+    border-collapse: collapse;
+    border-bottom: 1px solid #EEEEEE;
+}
+.table td {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #292D32;
+    border-collapse: collapse;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+
+
+
+.footer {
+    display: flex;
+    padding-top: 2%;
+}
+
+.footer p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #B5B7C0;
+}
+
+.numbers {
+    position: relative;
+    padding-top: 2%;
+    left: 40%;
+}
